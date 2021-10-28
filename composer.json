@@ -1,6 +1,6 @@
 {
-    "name": "spatie/laravel-web-tinker",
-    "description": "Artisan Tinker in your browser",
+    "name": "engwaqas/laravel-web-tinker",
+    "description": "Artisan Tinker in your browser, this is a personal package for testing fork from spite web tinker",
     "keywords": [
         "spatie",
         "web-tinker",
@@ -9,7 +9,7 @@
         "debug",
         "development"
     ],
-    "homepage": "https://github.com/spatie/laravel-web-tinker",
+    "homepage": "https://github.com/engwaqas/laravel-web-tinker",
     "license": "MIT",
     "authors": [
         {
