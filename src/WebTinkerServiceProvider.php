@@ -51,7 +51,7 @@ class WebTinkerServiceProvider extends ServiceProvider
         Route::prefix(config('web-tinker.path'))->middleware([
             EncryptCookies::class,
             StartSession::class,
-            Authorize::class,
+            // Authorize::class,
         ])->group(function () {
             Route::get('/', [WebTinkerController::class, 'index']);
             Route::post('/', [WebTinkerController::class, 'execute']);
